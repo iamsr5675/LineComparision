@@ -29,9 +29,13 @@ public class LineComparision {
       {
     	  System.out.println("Both lines are equal.");
       }
+      else if(distance1 > distance2)
+      {
+    	  System.out.println("Line1 is greater than Line2");
+      }
       else
       {
-    	  System.out.println("Both lines are not equal");
+    	  System.out.println("Line1 is smaller than Line2");
       }
   }
 }
